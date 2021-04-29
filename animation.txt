@@ -1,0 +1,7 @@
+  function animation() {
+    inputRef.current.style.background = '#3498db50';
+
+    setTimeout(() => {
+      inputRef.current.style.background = '#2980b910';
+    }, 100);
+  }
